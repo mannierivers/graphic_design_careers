@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design: Career Launch Protocol</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter (Sans-serif), Unbounded (Display), and Space Mono (Monospace) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Unbounded:wght@700;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        
+        /* Default body font set to readable Sans-serif (Inter) */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Custom font utilities for easy application */
+        .font-display {
+            font-family: 'Unbounded', sans-serif;
+        }
+        .font-mono-strict {
+            font-family: 'Space Mono', monospace;
+        }
+        
+        /* --- Salpointe Colors: Maroon (#83334a) and Gold (Secondary) --- */
+        
+        /* Primary Neon Maroon Text/Glow */
+        .neon-text-red {
+            text-shadow: 0 0 5px #83334a, 0 0 15px #83334a; 
+        }
+        /* Primary Neon Maroon Border */
+        .neon-border-red {
+            box-shadow: 0 0 10px 1px rgba(131, 51, 74, 0.6); /* #83334a with opacity */
+            transition: all 0.3s ease-in-out;
+            border-color: #83334a; 
+        }
+        .neon-border-red:hover {
+            box-shadow: 0 0 20px 4px rgba(131, 51, 74, 0.9);
+        }
+        
+        /* Secondary Neon Gold Border (Amber 400) */
+        .neon-border-gold {
+            box-shadow: 0 0 10px 1px rgba(251, 191, 36, 0.7); /* Amber 400 */
+        }
+        
+        /* Subtle background grid pattern using CSS */
+        .grid-bg {
+            background-color: #050505; /* Slightly darker to make maroon pop */
+            background-image: linear-gradient(0deg, transparent 24%, rgba(200, 200, 200, 0.05) 25%, rgba(200, 200, 200, 0.05) 26%, transparent 27%, transparent 74%, rgba(200, 200, 200, 0.05) 75%, rgba(200, 200, 200, 0.05) 76%, transparent 77%), linear-gradient(90deg, transparent 24%, rgba(200, 200, 200, 0.05) 25%, rgba(200, 200, 200, 0.05) 26%, transparent 27%, transparent 74%, rgba(200, 200, 200, 0.05) 75%, rgba(200, 200, 200, 0.05) 76%, transparent 77%);
+            background-size: 50px 50px;
+        }
+        
+    </style>
+</head>
+<body class="grid-bg min-h-screen text-white antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-10 bg-black/90 backdrop-blur-md shadow-xl border-b border-[#83334a]/40">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo/Title -->
+            <div class="text-xl font-bold text-[#83334a] neon-text-red font-mono-strict tracking-tighter">
+                // CTE_DESIGN_CAREERS
+            </div>
+            <!-- Navigation Links -->
+            <nav class="space-x-8 text-sm uppercase font-mono-strict">
+                <a href="#home" class="hover:text-[#a84460] transition duration-300 relative group">
+                    HOME
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-[#83334a] scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#tracks" class="hover:text-[#a84460] transition duration-300 relative group">
+                    THE TRACKS
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-[#83334a] scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+                <a href="#launch" class="hover:text-[#a84460] transition duration-300 relative group">
+                    LAUNCH
+                    <span class="absolute left-0 bottom-0 w-full h-0.5 bg-[#83334a] scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-16">
+
+        <!-- 1. Hero Section -->
+        <section id="home" class="text-center pt-8 pb-20">
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 uppercase text-white neon-text-red font-display">
+                GRAPHIC DESIGN:
+            </h1>
+            <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-[#83334a] neon-text-red font-display">
+                LAUNCHING A HIGH-INCOME CREATIVE CAREER
+            </h2>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
+                Design is the foundation of the digital economy. Leverage your visual skills to unlock high-paying career trajectories in Tech and Strategy.
+            </p>
+
+            <!-- CTA Button -->
+            <a href="#tracks" class="inline-block px-10 py-4 text-lg font-bold uppercase tracking-wider bg-black text-[#83334a] border-2 border-[#83334a] shadow-lg hover:bg-[#83334a]/20 transition duration-300 cursor-pointer neon-border-red rounded-lg font-mono-strict">
+                <span class="mr-2">&lt;|</span> INITIATE CAREER PATH SCAN <span class="ml-2">|&gt;</span>
+            </a>
+        </section>
+
+        <!-- Separator -->
+        <div class="h-px w-full bg-[#83334a]/50 my-16 shadow-lg neon-border-red"></div>
+
+
+        <!-- 2. The Digital Experience Track (Section 1) -->
+        <section id="tracks" class="py-12">
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12 uppercase text-[#83334a] neon-text-red font-display">
+                // TRACK 01: THE DIGITAL EXPERIENCE - UX & PRODUCT
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Product Designer Card (Primary Maroon Accent) -->
+                <div class="bg-gray-900/70 p-8 rounded-xl border border-[#83334a] neon-border-red transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-8 h-8 text-[#83334a] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9.25 21H14.75L14.25 17M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4Z"></path></svg>
+                        <h4 class="text-2xl font-bold uppercase text-[#83334a] font-mono-strict">PRODUCT DESIGNER</h4>
+                    </div>
+                    <p class="text-gray-400 mb-4 italic">Visionary leader of the user experience and product lifecycle.</p>
+                    <div class="text-lg text-gray-200 space-y-3">
+                        <p><strong class="text-white">FOCUS:</strong> Defines *what* the product is and optimizes the entire lifecycle (idea $\rightarrow$ launch). They merge UX, UI, and business goals to ensure the product is desirable, viable, and feasible.</p>
+                        <p><strong class="text-white">DIFFERENCE:</strong> <span class="text-[#83334a] font-bold">Holistic and cross-functional.</span> Product Designers own the **entire product strategy**, not just a specific interface or research phase.</p>
+                        <p><strong class="text-white">CORE SKILLS:</strong> Visual Hierarchy, Full-Cycle Problem Solving, Business Acumen.</p>
+                        <p class="text-xl font-bold text-amber-400 font-mono-strict">COMPENSATION: $114,000 - $130,000+</p>
+                    </div>
+                </div>
+
+                <!-- UX Researcher Card (Secondary Gold Accent) -->
+                <div class="bg-gray-900/70 p-8 rounded-xl border border-amber-700 neon-border-gold transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-8 h-8 text-amber-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 4.5V9m0 0h4m-4 0l-2-2"></path></svg>
+                        <h4 class="text-2xl font-bold uppercase text-amber-400 font-mono-strict">UX RESEARCHER</h4>
+                    </div>
+                    <p class="text-gray-400 mb-4 italic">The design detective. Conducts empirical investigation to inform design.</p>
+                    <div class="text-lg text-gray-200 space-y-3">
+                        <p><strong class="text-white">FOCUS:</strong> Conducts usability tests, interviews, surveys, and data analysis to inform strategic design decisions. They answer the question: <span class="text-amber-400">"What do users actually need?"</span></p>
+                        <p><strong class="text-white">DIFFERENCE:</strong> <span class="text-amber-400 font-bold">Specialized and investigative.</span> Their role is to provide deep, actionable insights to Product and UX Designers, focusing heavily on qualitative and quantitative data gathering.</p>
+                        <p><strong class="text-white">CORE SKILLS:</strong> Empathy, Data Analysis, Observation, Statistical Reporting.</p>
+                        <p class="text-xl font-bold text-amber-400 font-mono-strict">COMPENSATION: $119,000 - $133,000+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separator -->
+        <div class="h-px w-full bg-[#83334a]/50 my-16 shadow-lg neon-border-red"></div>
+
+
+        <!-- 3. The Leadership & Management Track (Section 2) -->
+        <section class="py-12">
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12 uppercase text-[#83334a] neon-text-red font-display">
+                // TRACK 02: LEADERSHIP PROTOCOL - STRATEGY & MANAGEMENT
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <!-- Creative Director Card (Primary Maroon Accent) -->
+                <div class="bg-gray-900/70 p-8 rounded-xl border border-[#83334a] neon-border-red transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-8 h-8 text-[#83334a] mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        <h4 class="text-2xl font-bold uppercase text-[#83334a] font-mono-strict">ART / CREATIVE DIRECTOR</h4>
+                    </div>
+                    <p class="text-gray-400 mb-4 italic">Defines the entire visual style, tone, and strategic direction of a brand.</p>
+                    <div class="text-lg text-gray-200 space-y-3">
+                        <p><strong class="text-white">FOCUS:</strong> Conceptualization, brand vision, and leading creative teams. They ensure all creative output aligns with high-level business goals.</p>
+                        <p><strong class="text-white">SKILL:</strong> Conceptualization, Visual Strategy, Team Management.</p>
+                        <p class="text-xl font-bold text-amber-400 font-mono-strict">HIGH-END COMPENSATION: $124,000 - $155,000+</p>
+                    </div>
+                </div>
+
+                <!-- Design Project Manager Card (Secondary Gold Accent) -->
+                <div class="bg-gray-900/70 p-8 rounded-xl border border-amber-700 neon-border-gold transition duration-300 hover:scale-[1.02]">
+                    <div class="flex items-center mb-4">
+                        <svg class="w-8 h-8 text-amber-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <h4 class="text-2xl font-bold uppercase text-amber-400 font-mono-strict">DESIGN PROJECT MANAGER</h4>
+                    </div>
+                    <p class="text-gray-400 mb-4 italic">The operational bridge between design, development, and business.</p>
+                    <div class="text-lg text-gray-200 space-y-3">
+                        <p><strong class="text-white">FOCUS:</strong> Ensures design projects are delivered on time, within budget, and meet client specifications. They handle logistics and communication.</p>
+                        <p><strong class="text-white">SKILL:</strong> Process Management, Logistics, Timeline Planning, Risk Assessment.</p>
+                        <p class="text-xl font-bold text-amber-400 font-mono-strict">COMPENSATION: $97,000 - $118,000+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separator -->
+        <div class="h-px w-full bg-[#83334a]/50 my-16 shadow-lg neon-border-red"></div>
+
+        <!-- 4. Skills & Launch Protocol (Section 3) -->
+        <section id="launch" class="py-12">
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-10 uppercase text-[#83334a] neon-text-red font-display">
+                // LAUNCH PROTOCOL: HIGH-SCHOOL DESIGN MANIFESTO
+            </h3>
+            
+            <p class="text-xl text-gray-300 max-w-4xl mb-10">
+                To reach these compensation tiers, your focus must shift from aesthetics to <strong class="text-amber-400 neon-text-red">problem-solving and functional utility.</strong> Execute these steps now:
+            </p>
+
+            <ul class="space-y-6 text-lg font-mono-strict">
+                <!-- Action Item 1 (Maroon Primary) -->
+                <li class="p-4 bg-gray-900/70 border-l-4 border-[#83334a] hover:bg-gray-800/80 transition duration-200 rounded-md">
+                    <span class="text-[#83334a] font-bold mr-3">[01]</span> 
+                    <strong class="text-white">BUILD A DIGITAL PORTFOLIO:</strong> 
+                    Showcase projects that demonstrate you can solve real-world user or business problems. Focus on the *process*, not just the final image.
+                </li>
+                
+                <!-- Action Item 2 (Gold Secondary) -->
+                <li class="p-4 bg-gray-900/70 border-l-4 border-amber-400 hover:bg-gray-800/80 transition duration-200 rounded-md">
+                    <span class="text-amber-400 font-bold mr-3">[02]</span>
+                    <strong class="text-white">MASTER THE PLATFORM:</strong> 
+                    Go beyond Adobe. Learn <span class="text-amber-400 font-extrabold">Figma</span> (the industry standard for product design) and Git/Version Control basics.
+                </li>
+
+                <!-- Action Item 3 (Maroon Primary) -->
+                <li class="p-4 bg-gray-900/70 border-l-4 border-[#83334a] hover:bg-gray-800/80 transition duration-200 rounded-md">
+                    <span class="text-[#83334a] font-bold mr-3">[03]</span>
+                    <strong class="text-white">FOCUS ON THE WHY:</strong> 
+                    Adopt a Human-Centered Design approach. Research terms like *Wireframing*, *Design System*, and *Agile Development*.
+                </li>
+
+                <!-- Action Item 4 (Gold Secondary) -->
+                <li class="p-4 bg-gray-900/70 border-l-4 border-amber-400 hover:bg-gray-800/80 transition duration-200 rounded-md">
+                    <span class="text-amber-400 font-bold mr-3">[04]</span>
+                    <strong class="text-white">NETWORKING:</strong> 
+                    Start following top Product and UX leaders on platforms like LinkedIn and Medium to absorb industry knowledge and trends.
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black/90 mt-16 border-t border-[#83334a]/50">
+        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-xs text-gray-500 font-mono-strict">
+            <div class="h-px w-full bg-[#83334a]/50 mb-4 shadow-lg"></div>
+            Salpointe Catholic High School // CTE Department // Graphic Design Careers
+            <p class="mt-1">All compensation data is representative and based on average industry reports.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
